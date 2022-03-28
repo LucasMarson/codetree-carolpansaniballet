@@ -35,6 +35,13 @@ body,input, textarea, select, button {
   color: var(--purple);
 }
 
+body {
+  background-image: url(../../public/images/girls.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(8px);
+}
+
 button {
   cursor: pointer;
 }
